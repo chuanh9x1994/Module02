@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 
+        Viết một hàm findLargestNumber() nhận vào một mảng các số 
+        và trả về số lớn nhất trong mảng bằng cách sử dụng phương thức reduce().
+     -->
+
+     <script>
+        let arr = [23,17,44,10,53,32,,5];
+        // ở đây, nếu điều kiện trong ngoặc đúng (item > max), lấy giá trị bên trái dấu : , nếu sai lấy giá trị bên phải dấu :
+        let result = arr.reduce((max,item) => (item > max) ? item : max);
+        console.log("số lớn nhất là : ", result);
+     </script>
+</body>
+</html>

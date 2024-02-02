@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 
+        Viết một hàm findFirstEvent() nhận vào một mảng các số 
+        và trả về phần tử đầu tiên trong mảng là số chẵn bằng cách sử dụng phương thức find().
+     -->
+     <script>
+        // find() sẽ trả về phần tử đầu tiên thỏa mãn điều kiện.
+        let arr=[1,3,8,5,9,2,4,5,];
+        let result = arr.find((item) => item%2 == 0);
+        console.log("số đầu tiên chia hết cho 2 là : ",result);
+     </script>
+</body>
+</html>

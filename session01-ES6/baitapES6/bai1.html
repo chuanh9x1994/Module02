@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // tính tổng các số trong mảng, sử dụng phương thức reduce().
+        let numbers=[1,4,5,2,7,8,10];
+        // const calculateSum = (accumulator,currentValue) => accumulator+currentValue;
+        // accumulator - biến tích lũy, currentValue - phần tử của mảng đang được xử lý.
+        const sum = numbers.reduce((accumulator,currentValue) => accumulator+currentValue);         
+        console.log("tổng = ",sum);
+    </script>
+</body>
+</html>

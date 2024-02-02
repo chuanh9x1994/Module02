@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 
+        Viết một hàm filterEvenNumbers() nhận vào một mảng các số 
+        và trả về một mảng mới chỉ chứa các số chẵn bằng cách sử dụng phương thức filter().
+     -->
+     <script>
+        // filter() lọc cá phần tử trong mảng theo điều kiện, trả về 1 mảng mới.
+        let arr=[1,2,3,4,5,6,7,8,9,22,55,24];
+        let result = arr.filter((item) => item%2 == 0);
+        console.log("các số chia hết cho 2 :",result);
+     </script>
+</body>
+</html>

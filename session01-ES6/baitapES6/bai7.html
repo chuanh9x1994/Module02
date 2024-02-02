@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 
+        Viết một hàm checkIfElementExists() nhận vào một mảng và một giá trị cụ thể, 
+        sau đó kiểm tra xem giá trị đó có xuất hiện trong mảng hay không bằng cách sử dụng phương thức includes() hoặc indexOf().
+     -->
+
+     <script>
+        // indexOf() tìm kiếm phần tử trong mảng, nếu có trả về index của phần tử, nếu ko trả về -1.
+        // includes() tìm kiếm phần tử có trong mảng/chuỗi hay ko,có trả về true, ko trả về false.
+
+        let arr = [2,3,6,8,4,22,55,64,76,88];
+        function checkIfElementExists() {
+            let a=+prompt("mời nhập số: ");
+            let result = arr.includes(a);
+            if(result==true){
+                console.log(`số ${a} có trong mảng`);
+            }else {
+                console.log(`số ${a} không có trong mảng`);
+            }
+        }
+        checkIfElementExists();
+     </script>
+</body>
+</html>

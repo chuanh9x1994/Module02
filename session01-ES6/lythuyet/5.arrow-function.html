@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 
+
+            arrow function - hay còn gọi là hàm mũi tên:
+                - gọi sau khi khai báo, ko gọi được trước.
+                - không có CONTEXT.
+
+     -->
+     <script>
+        let result=(a,b)=>{
+            return a+b;
+        }
+        console.log("tổng = ",result(3,5));
+
+        // hoặc có thể viết tắt ntn nếu như trong {} chỉ có 1 dòng lệnh.
+
+        let result2=(c,d) => c+d;
+        console.log("tổng = ",result2(10,2));
+
+        let result3 = e => e+5;
+        console.log("tổng = ",result3(10));
+     </script>
+</body>
+</html>

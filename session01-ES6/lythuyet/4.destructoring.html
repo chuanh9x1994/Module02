@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 
+            Destructoring: 
+                1. destructring với object.
+                    - đặt tên key phải giống với tên key của object, và ko cần đúng thứ tự.
+                    - cú pháp : 
+                        const {thuộc tính 1, thuộc tính 2, ...} = tên object;
+                2. destructring với mảng.
+                    - cú pháp:
+                        const [a,b] = tên mảng;
+     -->
+     <script>
+        let obj = {
+            name:"hoa",
+            age:20,
+            address: "hà nội",
+        }
+        const {name,age,address}=obj; // destructoring lấy các thuộc tính của object ra.
+        console.log("name:",name);
+
+        let number=[4,5];
+        const [a,b]=number;             // destructoring lấy các giá trị của mảng ra.
+        console.log("a:",a);
+     </script>
+</body>
+</html>

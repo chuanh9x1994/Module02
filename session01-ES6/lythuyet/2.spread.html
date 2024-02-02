@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 
+
+            Toán tử spread (...) 
+                -
+     -->
+     <script>
+        let obj1={
+            name:"hoa",
+            age:25,
+        }
+        // let obj2=obj1;          // gán địa chỉ ô nhớ.
+        // obj1.name="hồng";            // khi thay đổi obj1 thì obj2 sẽ thay đổi theo.
+        // console.log("obj2222", obj2);
+
+        // toán tử spread sinh ra để clone lại tất cả các thuộc tính của obj 1 ra 1 địa chỉ mới.
+
+        let obj2={...obj1};         // khi sử dụng spread, obj1 được sao chép ra 1 bản mới, và obj2 sẽ bằng phiên bản mới đó.
+        obj1.name="hồng";           // thay đổi obj1 gốc sẽ ko làm thay đổi obj2.
+        console.log("obj2222", obj2);
+
+        let arr=[{
+            name:"hoa",
+            age:20
+        },
+        {
+            name:"hồng",
+            age:25
+        }];
+        let arr1=[...arr];
+        arr[0]=5;
+        console.log("00000",arr);
+        console.log("1111",arr1);
+     </script>
+</body>
+</html>
