@@ -1,0 +1,23 @@
+.nhapCv{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    .nhapTenCv{
+        border-radius: 5px;
+        width: 350px;
+        height: 30px;
+        border-width: 1px;
+    }
+    .add{
+        background-color: rgb(80, 77, 255);
+        width: 50px;
+        border-radius: 5px;
+        border-width: 0;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 17px;
+        color: white;
+    }
+    .add:hover{
+        background-color: rgb(255, 116, 9);
+    }
+}

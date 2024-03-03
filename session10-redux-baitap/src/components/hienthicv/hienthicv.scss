@@ -1,0 +1,51 @@
+.render{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 20px;
+    .listCv{
+        width: 500px;
+        height: auto;
+        display: block;
+        // background-color: red;
+        justify-content: space-between;
+        list-style: none;
+        .text{
+            font-size: 20px;
+            position: relative;
+            left: 120px;
+        }
+        .congViec{
+            // background-color: blue;
+            padding: 10px;
+            margin-top: 10px;
+            border: 1px ridge;
+            border-radius: 5px;
+            border-width: 2px;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            width: 395px;
+            height: 30px;
+            position: relative;
+            box-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+            .tenCv{
+                position: relative;
+                right: 13px;
+                font-size: 20px;
+            }
+            .del{
+                background-color: red;
+                border: none;
+                border-radius: 5px;
+                height: 40px;
+                width: 60px;
+                position: absolute;
+                right: 10px;
+                color: white;
+                font-size: 15px;
+            }
+        }
+    }
+    
+}

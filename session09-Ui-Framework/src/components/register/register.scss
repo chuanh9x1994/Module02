@@ -1,0 +1,91 @@
+.main{
+    // background-color: red;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    // border: 1px solid;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    .logo{
+        img{
+            width: 150px;
+        }
+    }
+    .title{
+        font-size: 30px;
+        text-align: center;
+        position: relative;
+        bottom: 20px;
+    }
+    .info{
+        .email{
+            position: relative;
+            right: 150px;
+        }
+        #email{
+            position: relative;
+            top: 5px;
+        }
+        .pass{
+            position: relative;
+            right: 138px;
+            top: 20px;
+        }
+        #pass{
+            position: relative;
+            top: 25px;
+        }
+        input{
+            width: 330px;
+        }
+    }
+    .qmk{
+        position: relative;
+        top: 30px;
+        left: 120px;
+        color: blue;
+    }
+    .dangNhap{
+        position: relative;
+        top: 40px;
+        width: 340px;
+        height: 30px;
+        background-color:lightgreen;
+        border-radius: 3px;
+        border: none;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .hoac{
+        display: flex;
+        position: relative;
+        top: 50px;
+        font-size: 20px;
+        font-weight:600;
+        hr{
+            width: 120px;
+        }
+    }
+    .dn{
+        position: relative;
+        top: 60px;
+        .gg{
+            height: 30px;
+            position: relative;
+            right: 11px;
+        }
+        .fb{
+            position: relative;
+            height: 30px;
+            left: 11px;
+        }
+    }
+    .dangKy{
+        position: relative;
+        top: 70px;
+        .dk{
+            color: blue;
+            font-weight: bold;
+        }
+    }
+    
+}
