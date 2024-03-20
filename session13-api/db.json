@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "name": "minh vũ",
+      "id": 2
+    },
+    {
+      "name": "hà linh",
+      "id": 3,
+      "address": "hcm"
+    },
+    {
+      "name": "vũ",
+      "id": 4,
+      "address": "bắc ninh"
+    }
+  ],
+  "products": [
+    {
+      "id": 11,
+      "name": "iphone"
+    },
+    {
+      "id": 22,
+      "name": "samsung"
+    }
+  ]
+}
