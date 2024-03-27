@@ -1,0 +1,21 @@
+.title{
+    color: white;
+    .todo-list{
+        font-size: 40px;
+        position: relative;
+        left: 40px;
+        top: 20px;
+    }
+    .content{
+        position: relative;
+        left: 40px;
+        bottom: 20px;
+    }
+    hr{
+        position: relative;
+        bottom: 25px;
+        width: 320px;
+        opacity: 0.5;
+        color: white;
+    }
+}

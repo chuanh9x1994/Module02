@@ -1,0 +1,27 @@
+.list-jobs{
+    .job{
+        position: relative;
+        background-color: #F06675;
+        margin-top: 5px;
+        display: flex;
+        align-items: center;
+        height: 45px;
+        color: white;
+        .nameJob{
+            position: relative;
+            left: 40px;
+        }
+        input{
+            position: absolute;
+            right: 85px;
+        }
+        .fa-trash{
+            position: absolute;
+            right: 65px;
+        }
+        .fa-pen-to-square{
+            position: absolute;
+            right: 40px;
+        }
+    }
+}

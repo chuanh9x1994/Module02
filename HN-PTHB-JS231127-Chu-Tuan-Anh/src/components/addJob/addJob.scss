@@ -1,0 +1,31 @@
+.add-job{
+    // background-color: green;
+    height: 100px;
+    .content{
+        color: white;
+        font-size: 20px;
+        position: relative;
+        left: 40px;
+        top: 20px;
+    }
+    input{
+        position: relative;
+        left: 40px;
+        top: 5px;
+        height: 30px;
+        width: 220px;
+    }
+    button{
+        position: relative;
+        left: 50px;
+        top: 5px;
+        height: 35px;
+        width: 80px;
+        background-color: #EF5466;
+        border: thin solid rgba($color: #ffffff, $alpha: 0.5);
+        border-radius: 3px;
+        color: white;
+        font-size: 10px;
+        font-weight: bold;
+    }
+}
